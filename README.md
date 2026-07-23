@@ -16,7 +16,7 @@
 
 - **목표**: 재무 특성(소득 구성, 카드 이용 패턴 등)으로 신용대출 보유자 비중이 높은 집계구를 예측
 - **과정**: 처음에는 성별을 타겟으로 시도했으나 정확도가 랜덤 수준(약 55~58%)에 그쳐, 데이터가 실제로 담고 있는 신용/대출 정보를 활용하는 방향으로 타겟을 재정의
-- **모델**: DecisionTree, RandomForest, LightGBM 비교 + GridSearch 하이퍼파라미터 튜닝
+- **모델**: DecisionTree, RandomForest, XGBoost 비교 + GridSearch 하이퍼파라미터 튜닝
 
 ## 실행 방법
 
